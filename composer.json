@@ -1,0 +1,22 @@
+{
+	"name": "videorecruit/doctrine-utc-carbon",
+	"type": "library",
+	"description": "Carbon DateTime type for Doctrine2",
+	"keywords": ["doctrine", "orm", "dbal"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lukas Tomek",
+			"email": "tomeklukas@gmail.com"
+		}
+	],
+	"require": {
+		"doctrine/orm": "~2.5",
+		"nesbot/carbon": "~1.21"
+	},
+	"autoload": {
+		"psr-4": {
+			"VideoRecruit\\": "src/"
+		}
+	}
+}
